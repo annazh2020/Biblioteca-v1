@@ -44,7 +44,7 @@ public enum Opcion {
 			vista.listarLibros();
 		}
 	},
-	PRESTAR_LIBRO("Insertar prestamo del libro") {
+	PRESTAR_LIBRO("Prestar libro") {
 		public void ejecutar() {
 			vista.prestarLibro();
 		}
